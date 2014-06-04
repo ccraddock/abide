@@ -5,9 +5,9 @@ import pandas
 import urllib
 
 # Path to phenotypic csv file
-csv_path = '/home/dclark/Documents/refs/Phenotypic_V1_0b_preprocessed.csv'
+csv_path = '/home/ubuntu/Phenotypic_V1_0b_preprocessed.csv'
 # Download directory
-download_root = '/home/dclark/Documents/data/'
+download_root = '/home/ubuntu/'
 # S3 path prefix
 s3_prefix = 'https://s3.amazonaws.com/fcp-indi/data/Projects/'\
             'ABIDE_Initiative/Outputs/'
