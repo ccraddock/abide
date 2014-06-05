@@ -5,6 +5,7 @@
 
 #' ## Load Dependencies
 #' Functions and libraries that are needed for plotting needs
+#' Please see https://github.com/preprocessed-connectomes-project/abide/blob/master/plot/qa_plot.R for actual code.
 #+ anat-source
 source("qa_plot_funcs.R")
 
