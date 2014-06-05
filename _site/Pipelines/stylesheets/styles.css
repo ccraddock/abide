@@ -122,10 +122,10 @@ header ul {
 }
 
 header li {
-  /* width:89px; */
+  width:270px;
   float:center;
   /* border-right:1px solid #d2d2d2; */
-  height:40px;
+  /* height:40px; */
 }
 
 header ul a {
@@ -134,8 +134,8 @@ header ul a {
   color:#999;
   display:block;
   text-align:center;
-  padding-top:6px;
-  height:40px;
+  padding-top:2px;
+  /* height:40px;*/
 }
 
 strong {
@@ -144,13 +144,13 @@ strong {
 }
 
 header ul li + li {
-  width:88px;
+  width:270px;
   /* border-left:1px solid #fff; */
 }
 
 header ul li + li + li {
   border-right:none;
-  width:89px;
+  width:270px;
 }
 
 header ul a strong {
@@ -162,6 +162,8 @@ header ul a strong {
 
 header navbar {
   float:center;
+  text-align:left;
+  
 }
 
 header navbar ul + li + li{
@@ -170,9 +172,11 @@ header navbar ul + li + li{
   text-align:left;
 }
 
-header navbar ul a {
+header navbar ul li a {
+  padding-top:2px;
+  display:block;
   font-size:14px;
-  text-align: left;
+  text-align:left;
 }
 
 section {
@@ -195,8 +199,8 @@ hr {
 footer {
   width:270px;
   float:left;
-  position:fixed;
-  bottom:50px;
+  position: fixed;
+  bottom:0px;
 }
 
 @media print, screen and (max-width: 960px) {
