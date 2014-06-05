@@ -128,7 +128,7 @@ header li {
   /* height:40px; */
 }
 
-header ul a {
+header ul li {
   line-height:1;
   font-size:11px;
   color:#999;
@@ -163,20 +163,22 @@ header ul a strong {
 header navbar {
   float:center;
   text-align:left;
-  
 }
 
-header navbar ul + li + li{
+header navbar ul li{
   diplay:block;
   float:center;
   text-align:left;
+  color:#222;
+  padding-bottom:5px;
+  margin-left:20px;
 }
 
 header navbar ul li a {
-  padding-top:2px;
   display:block;
   font-size:14px;
   text-align:left;
+  color:#222;
 }
 
 section {
