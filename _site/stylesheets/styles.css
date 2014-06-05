@@ -162,6 +162,7 @@ header ul a strong {
 
 header navbar {
   float:center;
+  text-align:left;
 }
 
 header navbar ul + li + li{
@@ -170,8 +171,9 @@ header navbar ul + li + li{
   text-align:left;
 }
 
-header navbar ul a {
-  text-align: left;
+header navbar ul li a {
+  font-size:14px;
+  text-align:left;
 }
 
 section {
