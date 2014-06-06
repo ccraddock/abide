@@ -160,13 +160,17 @@ header ul a strong {
   color:#222;
 }
 
-header navbar {
+navbar {
+  display:block;
   float:center;
-  position:absolute;
-  text-align:left;
+  position:relative;
 }
 
-header navbar ul li{
+navbar ul {
+  height:240px;
+}
+
+navbar ul li{
   diplay:block;
   float:center;
   text-align:left;
@@ -175,20 +179,25 @@ header navbar ul li{
   margin-left:20px;
 }
 
-header navbar ul h3 {
+navbar h3,h4 {
   font-size:14px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
+  margin-top: 1px;
 }
 
-header navbar ul li a{
+navbar a{
   display:block;
   font-size:14px;
   text-align:left;
   color:#222;
 }
 
+navbar li ul{
+  height:60px;
+}
+
 section {
-  width:500px;
+  width:550px;
   float:right;
   padding-bottom:50px;
 }
@@ -205,10 +214,10 @@ hr {
 }
 
 footer {
+  text-align:center;
   width:270px;
   float:center;
   position:relative;
-  top:180px;
   /* bottom:0px; */
 }
 
@@ -270,9 +279,9 @@ footer {
     padding:15px;
   }
   
-  header ul {
-    display:none;
-  }
+  /* header ul { */
+  /*   display:none; */
+  /* } */
 }
 
 @media print {

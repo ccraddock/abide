@@ -13,7 +13,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+    <div>
       <header>
 	<a href="/index.html"><img src="./images/abide_logo.jpg"></a>
         <center>
@@ -22,10 +22,9 @@
 	</center>
 	<hr></hr>
 	<h2><strong><center><a href="downloads.html">[download here]</a></center></strong></h2>
-	<!-- <div>{% include contact.html %}</div> -->
-	<div>{% include nav.html %}</div>
+	{% include nav.html %}
       </header>
-  <body>
+    </div>
   <section>
       {{ content }}
   </section>
