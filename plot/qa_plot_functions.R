@@ -188,7 +188,7 @@ plot_measure <- function(df, measure, desc, site.col="site.name", plot=TRUE,
                                   size=16, angle=90, hjust=0.5)) + 
       theme(axis.ticks.length = unit(.15, "lines")) + 
       theme(axis.ticks.margin = unit(.15,"lines")) + 
-      theme(plot.margin       = unit(c(0.25, 1, 0.25, 1), "lines")) + 
+      theme(plot.margin       = unit(c(1, 1, 0.25, 1), "lines")) + 
       theme(legend.position   = "none")
 
     # End
