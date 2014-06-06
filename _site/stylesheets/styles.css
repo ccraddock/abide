@@ -162,6 +162,7 @@ header ul a strong {
 
 header navbar {
   float:center;
+  position:absolute;
   text-align:left;
 }
 
@@ -205,9 +206,10 @@ hr {
 
 footer {
   width:270px;
-  float:left;
-  position: fixed;
-  bottom:0px;
+  float:center;
+  position:relative;
+  top:180px;
+  /* bottom:0px; */
 }
 
 @media print, screen and (max-width: 960px) {
